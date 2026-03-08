@@ -1,0 +1,8 @@
+#obj p{text-align:justify;}
+    h2{padding:0.9vh 2.4vw;font-weigth:bold;border-bottom:solid #4F504E 0.3vh}
+    section{text-align:left;}
+    h3, b{font-size:0.9rem;}
+    li{list-style:none;width:100%;}li b::before,li h3::before{content:'•';margin-right:1.5%;}
+    body:after, body:before{background: radial-gradient(circle, rgba(255, 255, 255, 0) 40%, rgba(0, 0, 0, 0.1) 100%);}
+    ul{padding:6% 0;list-style:disc;}
+    #baixar{color:red;padding:0.3rem;border-radius:0.3rem;opacity:0.3;}#baixar:hover{opacity:1;}
