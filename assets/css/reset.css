@@ -1,11 +1,49 @@
-*{font-family:Arial,sans-serif;}
-    html{display:flex;align-items:center;justify-content:center;background:#82796F;}
-    header{display:flex;flex-flow:column wrap;align-items:center;font-size:1.5rem;text-align:justify;margin-bottom:9%;}
-        header h1{font-family:'Ubuntu Condensed',sans-serif;font-weight:bold;line-height:84%;text-align:center;}h2{font-family:'IM Fell English SC';}p{padding:0 2.7% 1.5%;font-family:Arial,sans-serif;font-weight:normal;}
-    body{
-            min-height:100vh;
-            background: linear-gradient(120deg, #f5deb3, #deb887, #d2b48c);
-            display:flex;justify-content:start;
-            position:relative;
-            padding:2.1%;
-        }
+* {
+    font-family: Arial, sans-serif;
+}
+
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #475569;
+}
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 9%;
+}
+
+header h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bold;
+    line-height: 84%;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'IM Fell English SC';
+}
+
+p {
+    padding: 0 2.7% 1.5%;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #0F172A;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+    filter: drop-shadow(3px 03px 6px rgba(30, 30, 30, 0.6));
+    background: linear-gradient(145deg, #F1F5F9 0%, #CBD5E1 50%, #94A3B8 100%);
+    display: flex;
+    justify-content: start;
+    position: relative;
+    padding: 2.1%;
+}

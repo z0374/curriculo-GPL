@@ -1,9 +1,19 @@
-html{padding:0.6rem;}
-        header h1{font-size:5.1rem;}
-        h2{font-size:1.5rem;}
-        body{
-            width:45vw;
-            border-radius:0.36vw;
-            border-left:solid 0.09vw #58524A;border-right:solid 0.09vw #58524A;
-            box-shadow: 0 9px 9px #36322E;  
-        }
+html {
+    padding: 0.6rem;
+}
+
+header h1 {
+    font-size: 5.1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+body {
+    width: 45vw;
+    border-radius: 0.36vw;
+    border-left: solid 0.09vw #58524A;
+    border-right: solid 0.09vw #58524A;
+    box-shadow: 0 40px 100px rgba(15, 23, 42, 0.6);
+}
