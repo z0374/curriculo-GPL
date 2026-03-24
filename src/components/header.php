@@ -12,7 +12,7 @@ $css_files [] = ROOT_PATH_CURRICULO . "/assets/css/header.css";
 $headerHTML = file_get_contents(ROOT_PATH_CURRICULO . "/assets/html/header/nome.html");
 $header [] = appendHTML($headerHTML, "nome", ($individuo['nome']));
 
-$headerString = $individuo['endereco'][0] . " | " . $individuo['endereco'][1] . " | " .$individuo['endereco'][2];
+$headerString = $individuo['endereco'][0] . "" . $individuo['endereco'][1] . " | " .$individuo['endereco'][2];
 $headerHTML = file_get_contents(ROOT_PATH_CURRICULO . "/assets/html/header/endereco.html");
 $header [] = appendHTML($headerHTML, "endereco", $headerString);
 
