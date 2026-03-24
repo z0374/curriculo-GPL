@@ -3,9 +3,9 @@
 $css_files [] = ROOT_PATH_CURRICULO . "/assets/css/header.css";
 
   $individuo = [
-    'nome' => 'Seu Nome Completo Aqui',
-    'endereco' => ['Seu bairro/provincia', 'Sua Cidade/Município-Estado', 'Seu CEP'],
-    'contato' => ['+55 62 9 9999-9999', 'SeuEmail@provedor.ext']
+    'nome' => 'Victor Augusto Macedo Pereira',
+    'endereco' => ['', 'Aparecida de Goiânia', '74970-420'],
+    'contato' => ['+55 (62) 9 9480-5555', 'victormacedo2001@hotmail.com']
   ];
 
 
