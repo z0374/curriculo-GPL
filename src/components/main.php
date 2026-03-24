@@ -8,19 +8,19 @@ media_mobile_portrait_geral[] = file_get_contents(ROOT_PATH_CURRICULO . "/assets
 $data = [
   'objetivo' => 'Buscar uma oportunidade desafiadora onde possa aplicar minhas habilidades e conhecimentos adquiridos ao longo da minha experiência, contribuindo para o crescimento da empresa. Tenho como objetivo aprimorar minhas competências, trabalhar em equipe e superar as metas estabelecidas, com foco em resultados e excelência no desempenho de minhas funções. Estou comprometido em aprender e evoluir continuamente, proporcionando soluções inovadoras e colaborando com o sucesso organizacional.',
   'formacao' => [
-    ['Ensino mádio (2018)', 'Colégio da Polícia Militar do Estado de Goiás - Unidade Colina Azul'],
+    ['Ensino Médio (2018)', 'Colégio da Polícia Militar do Estado de Goiás - Unidade Colina Azul'],
     ['Bacharelado em Ciências da Computação ( CURSANDO )', 'Estácio de sá - Polo Campinas'],
     //['Seu curso Acadêmico (ano de término)', 'Instituição de ensino']
   ],
   'experiencia' => [
     ['Adjel - Terceirizado no Tribunal Regional Eleitoral do Estado de Goiás', 'Auxiliar de Estatística (2020 | 2022)'],
-    ['Tribunal de Contas dos Municípios do Estado de Goiás', 'Estagiário - Suporte de TI (2024 | 2026)'],
+    ['Tribunal de Contas dos Municípios do Estado de Goiás', 'Estagiário - Suporte de TI e Desenvolvimento Web (2024 | 2026)'],
     //['Empresa em que trabalhou', 'Cargo em que trabalhou (ano de ingresso | ano de saída)']
   ],
   'habilidade' => [
-    ['CNH', 'A/B'],
-    ['Java Scrypt', 'Intermediário'],
-    ['HTML ', 'Intermediário']
+    ['CNH', 'Categoria A/B'],
+    ['Microsoft Office', 'Sólido domínio das ferramentas do pacote Microsoft Office (Word, Excel e PowerPoint).'],
+    ['Desenvolvimento Web ', 'Domínio no desenvolvimento de aplicações web utilizando PHP, JavaScript, HTML e CSS, com foco na criação de interfaces responsivas e funcionalidades dinâmicas.']
     //['Sua Habilidade', 'Descrição da habilidade']
   ],
   'outros' => [
