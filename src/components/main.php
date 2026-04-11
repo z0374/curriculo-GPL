@@ -3,7 +3,7 @@
 $css_files[] = ROOT_PATH_CURRICULO . "/assets/css/reset.css";
 $css_files[] = ROOT_PATH_CURRICULO . "/assets/css/main.css";
 $css_files[] = ROOT_PATH_CURRICULO . "/assets/css/desktopL.css";
-$css_files[] = ROOT_PATH_CURRICULO . "/assets/css/mobileP.css";
+$media_mobile_portrait_geral[] = file_get_contents(ROOT_PATH_CURRICULO . "/assets/css/mobileP.css");
 
 $data = [
   'objetivo' => 'Buscar uma oportunidade desafiadora onde possa aplicar minhas habilidades e conhecimentos adquiridos ao longo da minha experiência, contribuindo para o crescimento da empresa. Tenho como objetivo aprimorar minhas competências, trabalhar em equipe e superar as metas estabelecidas, com foco em resultados e excelência no desempenho de minhas funções. Estou comprometido em aprender e evoluir continuamente, proporcionando soluções inovadoras e colaborando com o sucesso organizacional.',
